@@ -1,3 +1,5 @@
+# Thanks official solutions for the create, exception, and :user_id code
+
 class ItemsController < ApplicationController
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
 
